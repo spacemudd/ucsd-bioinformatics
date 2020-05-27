@@ -16,11 +16,13 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 ## Week 1 (Genome pattern)
 
+### `genome_pattern.py`
+
 ![Running genome_pattern.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/genome_pattern.png)
 
-### Hurdles
+#### Hurdles
 
-#### I wasn't able to get correct answer on large datasets as I pasted the dataset through the terminal.
+##### I wasn't able to get correct answer on large datasets as I pasted the dataset through the terminal.
 
 	I got 117 because I copy-pasted the input from the browser into terminal, and there is a limitation on how many bytes (4096) can be read in one line from the terminal. If instead I run the program like:
 
@@ -33,11 +35,13 @@ See: https://stepik.org/lesson/2/step/7?discussion=291620&reply=291822&unit=8231
 
 Which made me just load the file instead of pasting it.
 
+### `frequent_words.py`
+
 ![Running frequent_words.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/frequent_words.png)
 
-### Hurdles
+#### Hurdles
 
-#### A bit complicated.
+##### A bit complicated.
 
 The psuedocode may throw you off a little bit so you're better about reading over the problem again and the comments to get a better undestanding of the situation.
 
