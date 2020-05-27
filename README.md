@@ -33,7 +33,7 @@ See: https://stepik.org/lesson/2/step/7?discussion=291620&reply=291822&unit=8231
 
 Which made me just load the file instead of pasting it.
 
-![Running frequent_words.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/frquent_words.png)
+![Running frequent_words.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/frequent_words.png)
 
 ### Hurdles
 
