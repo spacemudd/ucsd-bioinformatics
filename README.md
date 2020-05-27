@@ -6,9 +6,34 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 1. Python3 - language used in implementing the course work / code challenges.
 
+2. Sublime - text editor.
+
 2. OneNote - for note taking.
 
 3. AnkiApp - for creating flash cards.
+
+# Usage
+
+## Week 1 (Genome pattern)
+
+![Running genome_pattern.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/genome_pattern.py)
+
+### Hurdles
+
+1. I wasn't able to get correct answer on large datasets as I pasted the dataset through the terminal.
+
+		I got 117 because I copy-pasted the input from the browser into terminal, and there is a limitation on how many bytes (4096) can be read in one line from the terminal. If instead I run the program like:
+
+			`xclip -o | python3 pattern_count.py`
+
+		Then I get the correct answer.
+		I copy-pasted the input, because the format of the extra dataset is different from the input of actual test sets, which is very unfortunate and should be changed. If I download the extra dataset instead, I need to delete the first line and strip carriage returns. But there's no such need with data challenge test sets.
+
+See: https://stepik.org/lesson/2/step/7?discussion=291620&reply=291822&unit=8231 by `Arkadiusz Olek`
+
+Which made me just load the file instead of pasting it.
+
+---
 
 # My background
 
