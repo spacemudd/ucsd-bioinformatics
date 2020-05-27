@@ -14,7 +14,7 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 # Work
 
-## Week 1 (Genome pattern)
+## Week 1 - Finding Hidden Messages in DNA (Bioinformatics I)
 
 ### `genome_pattern.py`
 
