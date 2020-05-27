@@ -12,7 +12,7 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 3. AnkiApp - for creating flash cards.
 
-# Usage
+# Work
 
 ## Week 1 (Genome pattern)
 
@@ -20,7 +20,7 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 ### Hurdles
 
-1. I wasn't able to get correct answer on large datasets as I pasted the dataset through the terminal.
+#### I wasn't able to get correct answer on large datasets as I pasted the dataset through the terminal.
 
 		I got 117 because I copy-pasted the input from the browser into terminal, and there is a limitation on how many bytes (4096) can be read in one line from the terminal. If instead I run the program like:
 
