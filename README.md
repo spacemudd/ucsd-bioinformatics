@@ -16,7 +16,7 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 ## Week 1 (Genome pattern)
 
-![Running genome_pattern.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/genome_pattern.py)
+![Running genome_pattern.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/genome_pattern.png)
 
 ### Hurdles
 
