@@ -14,38 +14,46 @@ class GenomePattern:
 			
 	""" Set the genome text.
 	"""
-	def set_genome(self):
-		print('')
-		genome = raw_input(' Set the genome data [Default: GACCATACTG]: ')
-		genome = genome or 'GACCATACTG'
-		self.genome = genome
+	def set_genome(self, dataset=None):
+		if dataset is None:
+			print('')
+			genome = raw_input(' Set the genome data [Default: GACCATACTG]: ')
+			genome = genome or 'GACCATACTG'
+		else:
+			self.genome = dataset
 	
 	""" Set the specific pattern text required to search for.
 	"""
-	def set_pattern_text(self):
-		print('')
-		pattern = raw_input(' Set the pattern [Default: ATA]: ')
-		pattern = pattern or 'ATA'
-		
-		self.patternText = pattern
+	def set_pattern_text(self, text=None):
+		if text is None:
+			print('')
+			pattern = raw_input(' Set the pattern [Default: ATA]: ')
+			pattern = pattern or 'ATA'
+			self.patternText = pattern
+		else:
+			self.patternText = text
 
 	""" Count how many times it's present.
 	"""
-	def count_pattern(self):
+	def count_pattern(self, showResults=True):
 		count = 0
+
+		if len(self.genome) == 0:
+			raise Exception('There is no dataset loaded')
 
 		for position in range(0, len(self.genome) - len(self.patternText) + 1): # + 1 because we're starting from 1.
 			kmer = self.get_substring(position)
 			if kmer == self.patternText:
 				count += 1
 
-		print('')
-		print('  ==========================')
-		print('  LAB RESULT')
-		print('  --------------------------')
-		print('    Occurence of '+self.patternText+': {}'.format(count))
-		print('  ==========================')
-		print('')
+		if showResults:
+			print('')
+			print('  ==========================')
+			print('  LAB RESULT')
+			print('  --------------------------')
+			print('    Occurence of '+self.patternText+': {}'.format(count))
+			print('  ==========================')
+			print('')
 
 		return count
 				
