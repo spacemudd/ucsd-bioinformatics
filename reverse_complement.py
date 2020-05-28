@@ -5,7 +5,6 @@ __email__ = 'shafiqalshaar@gmail.com'
 """
 class ReverseComplement:
 
-
 	""" Get the reverse complement from a nucleotide string text.
 	"""
 	def get_reverse_complement_from_nucleotide(self, nucleotides):
@@ -30,4 +29,21 @@ class ReverseComplement:
 			string = i + string
 		return string
 
+def main():
+	lab = ReverseComplement()
 
+	with open('C:/projects/ucsd-bioinformatics/FrequentWordsDataset.txt', 'r') as file:
+			text = file.read()
+
+	reverse = lab.get_reverse_complement_from_nucleotide(text)
+
+	print('')
+	print('  ==========================')
+	print('  LAB RESULT')
+	print('  --------------------------')
+	print('  Nucleotide: '+text)
+	print('  Reverse complement: '+reverse)
+	print('  --------------------------')
+
+if __name__ == '__main__':
+	main()
