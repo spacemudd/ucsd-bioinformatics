@@ -65,6 +65,11 @@ The psuedocode may throw you off a little bit so you're better about reading ove
 - `test_pattern_to_number.py`
 - `pattern_to_number.py`
 
+### `number_to_pattern.py`
+
+- `test_number_to_pattern.py`
+- `number_to_pattern.py`
+
 ---
 
 # My background
