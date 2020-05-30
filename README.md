@@ -12,6 +12,8 @@ This repo contains all graded work done by me (Shafiq al-Shaar) for the course o
 
 3. AnkiApp - for creating flash cards.
 
+4. OriFinder - http://tubic.tju.edu.cn/Ori-Finder/
+
 # Work
 
 ## Week 1 - Finding Hidden Messages in DNA (Bioinformatics I)
@@ -52,6 +54,16 @@ The psuedocode may throw you off a little bit so you're better about reading ove
 ### `pattern_occurence.py`
 
 ![Running pattern_occurence.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/pattern_occurence.png)
+
+### `computing_frequencies.py`
+
+- `test_computing_frequencies.py`
+- `computing_frequencies.py`
+
+### `pattern_to_number.py`
+
+- `test_pattern_to_number.py`
+- `pattern_to_number.py`
 
 ---
 
