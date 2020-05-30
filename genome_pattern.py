@@ -19,6 +19,7 @@ class GenomePattern:
 			print('')
 			genome = raw_input(' Set the genome data [Default: GACCATACTG]: ')
 			genome = genome or 'GACCATACTG'
+			self.genome = genome
 		else:
 			self.genome = dataset
 	

@@ -73,7 +73,7 @@ class FrequentWords:
 def main():
 	laboratory = FrequentWords(debug=False)
 	laboratory.set_dataset_from_file('C:/projects/ucsd-bioinformatics/FrequentWordsDataset.txt') # Edit this path for your environment.
-	laboratory.set_kmer(9)
+	laboratory.set_kmer(3)
 	laboratory.build_frequent_words()
 
 if __name__ == '__main__':

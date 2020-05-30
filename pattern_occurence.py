@@ -46,8 +46,8 @@ def main():
 
 	""" Get the pattern as a user input.
 	"""
-	pattern = raw_input(' Set the pattern to look for [Default: ATAT]: ')
-	pattern = pattern or 'ATAT'
+	pattern = raw_input(' Set the pattern to look for [Default: AAA]: ')
+	pattern = pattern or 'AAA'
 	lab.set_pattern(pattern)
 
 	""" Get the positions.
