@@ -72,6 +72,18 @@ The psuedocode may throw you off a little bit so you're better about reading ove
 
 ---
 
+# Why am I doing it?
+
+The replication of cells and the intericate maintainability all of our cells go through has always bewildered me.
+
+Bioinformatics, I believe, is a gateway to understanding this mechanism.
+
+My hope and endgoal is that one day I may contribute to the research of cancer studies.
+
+My favorite bit about the course has been:
+
+>An error during replication can lead to various diseases, including cancer. To understand how replication initiation works and what causes it to malfunction, we must first know where to look for replication origins. For this reason, we must accurately locate ori sites in the genome to study their replication initiation. Things are made even more difficult when we move from bacteria to more complex organisms; the human genome has thousands of origins of replication.
+
 # My background
 
 1. My qualifications are 6 IGCSEs and TOEFL.
@@ -80,7 +92,7 @@ The psuedocode may throw you off a little bit so you're better about reading ove
 
 3. I'm an IT software developer having done pretty large projects.
 
-4. I was always fascinated of the bioinformatics realm since I first heared of it in 2012 on Reddit.
+4. I was always fascinated of the bioinformatics realm since I first heared of it in 2012 as an emerging sector.
 
 5. I'm hoping to go back to university after taking the Bioinformatics Specialization course.
 

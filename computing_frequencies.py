@@ -31,7 +31,7 @@ class ComputingFrequencies:
 
 	""" Compute the frequency of the k-mer.
 	"""
-	def compute_frequencies(self):
+	def compute_frequencies(self, ReturnArray=False):
 		frequency_arr = []
 
 		length_of_genome = len(self.genome)
@@ -43,6 +43,9 @@ class ComputingFrequencies:
 			pattern = self.genome[pos:pos+self.kmer_length]
 			encode = self.pattern_to_number(pattern)
 			frequency_arr[encode] = frequency_arr[encode] + 1
+
+		if ReturnArray:
+			return frequency_arr
 
 		return ' '.join( str(e) for e in frequency_arr )
 
