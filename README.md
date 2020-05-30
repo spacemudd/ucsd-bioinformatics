@@ -45,6 +45,14 @@ Which made me just load the file instead of pasting it.
 
 The psuedocode may throw you off a little bit so you're better about reading over the problem again and the comments to get a better undestanding of the situation.
 
+### `reverse_complement.py`
+
+![Running reverse_complement.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/reverse_complement.png)
+
+### `pattern_occurence.py`
+
+![Running pattern_occurence.py](https://github.com/spacemudd/ucsd-bioinformatics/blob/master/pattern_occurence.png)
+
 ---
 
 # My background
